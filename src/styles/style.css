@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
+.who-im-i {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.github-link i {
+    color: #000;
+}
