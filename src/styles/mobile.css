@@ -1,0 +1,38 @@
+    html, body {
+        overflow: auto;
+    }
+
+    body {
+        padding: 0 16px;
+        box-sizing: border-box;
+        min-height: 100vh;    
+        min-height: 100dvh; 
+    }
+
+    h1 {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+        overflow-wrap: anywhere;
+    }
+
+    .profile-img {
+        width: 150px;
+        max-width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+
+    .projects a, footer a {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 44px;
+        padding: 0 8px;
+    }
+
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 4px 16px;
+    }
