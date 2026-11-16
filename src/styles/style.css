@@ -1,5 +1,6 @@
 html, body {
-  overflow-x: hidden;
+    font-family: "Google Sans", sans-serif;
+    overflow-x: hidden;
 }
 
 body {
@@ -10,6 +11,8 @@ body {
 }
 
 h1 {
+    font-family: "Cabin Sketch", sans-serif;
+    font-size: 48px;
     text-align: center;
 }
 
@@ -25,8 +28,13 @@ h1 {
     border-radius: 50%;
 }
 
-.who-im-i, .projects, .technologies {
+.who-im-i, .technologies, .projects {
     text-align: center;
+}
+
+.who-im-i p {
+    font-family: "Caveat", cursive;
+    font-size: 20px;
 }
 
 hr {

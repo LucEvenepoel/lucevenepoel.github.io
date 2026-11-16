@@ -21,6 +21,10 @@ h1 {
     object-fit: cover;
 }
 
+.technologies-img {
+    max-width: 100%;
+}
+
 .projects a, footer a {
     display: inline-flex;
     align-items: center;
@@ -28,11 +32,6 @@ h1 {
     min-height: 44px;
     padding: 0 8px;
 }
-
-.technologies-img {
-    max-width: 100%;
-}
-
 
 footer {
     display: flex;
